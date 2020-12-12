@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.razorpay_hackathon">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logorofl"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logorofl"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".paymentns"></activity>
+        <activity android:name=".aboutus" />
+        <activity android:name=".mainpage" />
+        <activity
+            android:name=".Rayzorpay"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+        <activity
+            android:name=".MainActivity2"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+        <activity
+            android:name=".MainActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_test_JxeWdTVlbdPL15" />
+    </application>
+
+</manifest>

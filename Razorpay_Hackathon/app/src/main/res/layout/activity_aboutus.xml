@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="@drawable/back111"
+    tools:context=".aboutus">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="172dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/aboutusback1"
+            android:scaleType="fitXY"
+            android:src="@drawable/aboutusback1" />
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+
+
+            android:layout_marginRight="8dp"
+            android:background="#38b6ff">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:orientation="vertical">
+
+                <me.biubiubiu.justifytext.library.JustifyTextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="30dp"
+                    android:background="#00469bdb"
+                    android:text="Eligius Pay is an android application that can be used to make payments using a number of payment methods.
+Eligius Pay is integrated with Razorpay using APIs so you can pay anyone anywhere without any hassles.\n \nEligius Pay offers multiple payment methods like Debit Card, Credit Card, Net Banking, UPI, Wallets and EMI using the robust Razorpay payment gateway.
+You can choose the desired mode of payment and complete the verification process to send the payment.\n\nOnce the payment is made successfully, Eligius Pay provides the user with a confirmation message showing the details of the payment which can be saved for future reference.\n\nEligius Pay offers multiple payment methods like Debit Card, Credit Card, Net Banking, UPI, Wallets and EMI using the robust Razorpay payment gateway.
+You can choose the desired mode of payment and complete the verification process to send the payment.\n"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <me.biubiubiu.justifytext.library.JustifyTextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#00469bdb"
+                    android:text="After the payment has been successfully made the receiver will receive an SMS message on his/her phone stating the reference_id and amount of the payment depending on the messaging service used.\n"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <me.biubiubiu.justifytext.library.JustifyTextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:background="#00469bdb"
+                    android:text="The final payments of the receivers enlisted with Eligius Pay will be transferred to their given bank accounts through Razorpay Route.\n"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

@@ -1,8 +1,12 @@
-# eligius-pay-razorpay-ftx
+# Eligius Pay - A light weight payment gateway
+
+![Intro Image](https://firebasestorage.googleapis.com/v0/b/hackathon-buhack.appspot.com/o/Presentation%20Images%2Frayzorpay.png?alt=media&token=25daf8bb-4b6c-48ee-9f90-75269423310d)
 
 Introduction
 
 At Eligius Pay, we work for bringing smart payments right on your mobile devices. We created Eligius Pay to make online payments even simpler. Let us give you a closer look into Eligius Pay. Keeping in mind the user safety after the payment has been successfully received, an SMS message request will be triggered from the application and a confirmation message containing the details of the payment will be forwarded to the receiver using a paid SMS gateway service.
+
+You can also view a live demosntration [here !!](https://www.youtube.com/watch?v=0YUzPqX4MxM)
 
 Target Audience
 
@@ -22,10 +26,8 @@ Application Test User Details:
 
 Unique ID: • 8433098945 • 9540014357
 
-TEAM ELIGIUS
+App Developed by Akshat Rastogi
+Know more about me on [www.akshatrastogi.in](https://www.akshatrastogi.in)
 
-1. Akshat Rastogi
-2. Surya Raghuvanshi
-3. Samarth Goyal
-4. Udyan Sharma
-5. Divyansh Palia
+
+

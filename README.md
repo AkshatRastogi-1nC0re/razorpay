@@ -27,6 +27,8 @@ Application Test User Details:
 Unique ID: • 8433098945 • 9540014357
 
 App Developed by Akshat Rastogi
+Content Written By Udyan Sharma
+Designed By Surya Raghuvanshi
 Know more about me on [www.akshatrastogi.in](https://www.akshatrastogi.in)
 
 

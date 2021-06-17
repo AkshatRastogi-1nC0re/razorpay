@@ -28,7 +28,7 @@ Unique ID: • 8433098945 • 9540014357
 
 App Idealised & Developed by Akshat Rastogi
 
-Content Written By Udyan Sharma
+Content Written By Udyan Sharma & Akshat Rastogi
 
 Designed By Surya Raghuvanshi
 

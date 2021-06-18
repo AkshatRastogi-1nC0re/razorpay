@@ -30,7 +30,7 @@ App Idealised & Developed by Akshat Rastogi
 
 Content Written By Udyan Sharma & Akshat Rastogi
 
-Designed By Surya Raghuvanshi
+Designed By Surya Raghuvanshi & Udyan Sharma
 
 Know more about me on [www.akshatrastogi.in](https://www.akshatrastogi.in)
 
